@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  ProjectVersion4
+
+  Created by 鄭文 on 2017/5/24.
+  Copyright © 2017年 Lingo. All rights reserved.
+*/
+"root.title"="What to eat today";
+"Favorite"="My Favorite";
+"Food"="Food";
+"Cafe"="Cafe";
+"Bakery"="Bakery";
+"AddByUser"="Add store";
+"Back"="Back";
+"Select"="Random";
+"nowLocation"="my location";
+"name"="Name:";
+"telephone"="Telephone:";
+"address"="Address:";
+"connect"="See on the Map:";
+"addToFavorite"="Add to My Favorite";
+"deleteFromFavorite"="Remove From My Favorite";
+"addingByUser"="Add a new store";

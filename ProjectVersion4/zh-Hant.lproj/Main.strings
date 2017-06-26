@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Store Telephone"; ObjectID = "BDU-OP-gjQ"; */
+"BDU-OP-gjQ.text" = "Store Telephone";
+
+/* Class = "UILabel"; text = "名稱："; ObjectID = "Gy6-u3-7Dd"; */
+"Gy6-u3-7Dd.text" = "名稱：";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MaJ-zh-bvU"; */
+"MaJ-zh-bvU.text" = "Title";
+
+/* Class = "UILabel"; text = "Store Name"; ObjectID = "MdA-mK-FUr"; */
+"MdA-mK-FUr.text" = "Store Name";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Rew-qo-4bH"; */
+"Rew-qo-4bH.text" = "Title";
+
+/* Class = "UILabel"; text = "Store Address"; ObjectID = "UPM-Et-4HX"; */
+"UPM-Et-4HX.text" = "Store Address";
+
+/* Class = "UILabel"; text = "地址："; ObjectID = "aYm-fD-zwA"; */
+"aYm-fD-zwA.text" = "地址：";
+
+/* Class = "UILabel"; text = "點擊連到GoogleMap："; ObjectID = "cC5-fm-0Df"; */
+"cC5-fm-0Df.text" = "點擊連到GoogleMap：";
+
+/* Class = "UILabel"; text = "電話："; ObjectID = "qxo-Xv-WTP"; */
+"qxo-Xv-WTP.text" = "電話：";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "rdo-uv-IKb"; */
+"rdo-uv-IKb.text" = "Subtitle";

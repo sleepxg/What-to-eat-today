@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  ProjectVersion4
+
+  Created by 鄭文 on 2017/5/24.
+  Copyright © 2017年 Lingo. All rights reserved.
+*/
+"root.title"="今天吃什麼";
+"Favorite"="我的最愛";
+"Food"="美食";
+"Cafe"="咖啡";
+"Bakery"="麵包店";
+"AddByUser"="我來新增";
+"Back"="返回";
+"Select"="隨機";
+"nowLocation"="所在地";
+"name"="名稱:";
+"telephone"="電話:";
+"address"="地址:";
+"connect"="點擊在地圖上開啟:";
+"addToFavorite"="加到最愛";
+"deleteFromFavorite"="從我的最愛移除";
+"addingByUser"="使用者新增";
+
