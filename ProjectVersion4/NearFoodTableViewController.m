@@ -189,6 +189,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     DetailViewController * nextVC = [self.storyboard instantiateViewControllerWithIdentifier:@"detailViewController"];
     StoreInfo *tmp = self.currentStoreData[indexPath.row];
     nextVC.currentCoordinate = self.currentCoordinate;

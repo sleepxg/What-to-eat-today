@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2yG-BN-GaC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2yG-BN-GaC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -179,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IJ5-sb-08X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1033" y="800"/>
+            <point key="canvasLocation" x="1057" y="900"/>
         </scene>
         <!--Near Food Table View Controller-->
         <scene sceneID="h7V-Fk-hz1">
@@ -300,7 +300,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yGH-kI-RnB">
-                                <rect key="frame" x="20" y="40" width="167" height="24"/>
+                                <rect key="frame" x="10" y="40" width="167" height="24"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名稱：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gy6-u3-7Dd">
                                         <rect key="frame" x="0.0" y="0.0" width="61.5" height="24"/>
@@ -308,7 +308,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdA-mK-FUr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdA-mK-FUr">
                                         <rect key="frame" x="61.5" y="0.0" width="105.5" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
@@ -317,7 +317,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGA-lr-NJi">
-                                <rect key="frame" x="20" y="84" width="207" height="24"/>
+                                <rect key="frame" x="10" y="84" width="207" height="24"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="電話：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxo-Xv-WTP">
                                         <rect key="frame" x="0.0" y="0.0" width="61.5" height="24"/>
@@ -325,7 +325,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store Telephone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDU-OP-gjQ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store Telephone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDU-OP-gjQ">
                                         <rect key="frame" x="61.5" y="0.0" width="145.5" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
@@ -334,7 +334,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKf-Li-gI9">
-                                <rect key="frame" x="20" y="128" width="187.5" height="24"/>
+                                <rect key="frame" x="10" y="128" width="187.5" height="24"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地址：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYm-fD-zwA">
                                         <rect key="frame" x="0.0" y="0.0" width="61.5" height="24"/>
@@ -342,7 +342,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPM-Et-4HX">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPM-Et-4HX">
                                         <rect key="frame" x="61.5" y="0.0" width="126" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
@@ -351,7 +351,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4Dm-Kg-kLq">
-                                <rect key="frame" x="20" y="172" width="256" height="50"/>
+                                <rect key="frame" x="10" y="172" width="256" height="50"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="VQT-fy-7ZE">
                                         <rect key="frame" x="0.0" y="0.0" width="256" height="50"/>
@@ -380,14 +380,14 @@
                         <constraints>
                             <constraint firstItem="fGA-lr-NJi" firstAttribute="top" secondItem="yGH-kI-RnB" secondAttribute="bottom" constant="20" id="0Pe-0Z-BP8"/>
                             <constraint firstItem="dKX-aw-hiR" firstAttribute="top" secondItem="vJQ-tW-xMU" secondAttribute="bottom" constant="100" id="0l8-ck-Bci"/>
-                            <constraint firstItem="yGH-kI-RnB" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="20" id="6rL-Ok-1dW"/>
+                            <constraint firstItem="yGH-kI-RnB" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="10" id="6rL-Ok-1dW"/>
                             <constraint firstItem="yGH-kI-RnB" firstAttribute="top" secondItem="oPl-jG-YV7" secondAttribute="bottom" constant="20" id="A73-bw-pLT"/>
                             <constraint firstItem="4Dm-Kg-kLq" firstAttribute="top" secondItem="KKf-Li-gI9" secondAttribute="bottom" constant="20" id="A9e-2e-YRQ"/>
                             <constraint firstItem="vJQ-tW-xMU" firstAttribute="top" secondItem="4Dm-Kg-kLq" secondAttribute="bottom" constant="120" id="FYb-oL-B0r"/>
-                            <constraint firstItem="KKf-Li-gI9" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="20" id="Fqh-kv-uGm"/>
+                            <constraint firstItem="KKf-Li-gI9" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="10" id="Fqh-kv-uGm"/>
                             <constraint firstItem="KKf-Li-gI9" firstAttribute="top" secondItem="fGA-lr-NJi" secondAttribute="bottom" constant="20" id="HaU-DZ-9gw"/>
-                            <constraint firstItem="fGA-lr-NJi" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="20" id="WLz-c3-Mh5"/>
-                            <constraint firstItem="4Dm-Kg-kLq" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="20" id="YXV-hM-AWd"/>
+                            <constraint firstItem="fGA-lr-NJi" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="10" id="WLz-c3-Mh5"/>
+                            <constraint firstItem="4Dm-Kg-kLq" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="10" id="YXV-hM-AWd"/>
                             <constraint firstAttribute="trailing" secondItem="vJQ-tW-xMU" secondAttribute="trailing" constant="50" id="roc-jP-k4b"/>
                             <constraint firstItem="vJQ-tW-xMU" firstAttribute="leading" secondItem="byC-Fp-573" secondAttribute="leading" constant="50" id="tSM-FC-BZ3"/>
                         </constraints>

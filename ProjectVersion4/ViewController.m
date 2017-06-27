@@ -163,6 +163,8 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     NearFoodTableViewController *nextVC = [self.storyboard instantiateViewControllerWithIdentifier:@"nearFoodTable"];
     
     switch (indexPath.row) {

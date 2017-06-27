@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor cyanColor];
     switch (self.type) {
         case 1:
             self.typeImageView.image = [UIImage imageNamed:@"003-plate-fork-and-knife"];
@@ -69,6 +69,8 @@
     
     self.storeName.text = self.storeInfo.name;
     self.storeTelephone.text = self.storeInfo.phoneNumber;
+    self.storeAddress.lineBreakMode = NSLineBreakByWordWrapping;
+    //self.storeAddress.numberOfLines = 0;
     self.storeAddress.text = self.storeInfo.address;
     self.store2Map.image = [UIImage imageNamed:@"loading"];
     [self getIconImage];
