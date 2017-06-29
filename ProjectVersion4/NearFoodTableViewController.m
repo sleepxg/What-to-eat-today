@@ -11,7 +11,7 @@
 #import "StoreOperation.h"
 #import "CoreDataHelper.h"
 
-#define GOOGLE_PLACES_API @"AIzaSyB1KGmAFZGJp0v8L1SEiDluvysen-mzg24"
+#define GOOGLE_PLACES_API @"Your google places api key"
 
 @interface NearFoodTableViewController ()
 @property (nonatomic) NSOperationQueue *queue;
